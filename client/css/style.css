@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.room{
+    min-width: 300px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    position: relative;
+}
+.text{
+    width: 90%;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    margin: 5px;
+}
+.containeChat{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    margin: 5px;
+}
